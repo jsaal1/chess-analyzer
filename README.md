@@ -22,17 +22,17 @@ This tool lets you interactively view and evaluate board positions using a custo
 	pip install python-chess stockfish
 ```
 4.	Download and configure Stockfish:
-	•	Download from https://stockfishchess.org/download/
-	•	Place the binary (e.g. stockfish-macos-m1-apple-silicon) in a known location
-	•	Edit the path in chess_analyzer.py to point to your Stockfish path:
+- Download from https://stockfishchess.org/download/
+- Place the binary (e.g. stockfish-macos-m1-apple-silicon) in a known location
+- Edit the path in chess_analyzer.py to point to your Stockfish path:
 
 Run the script:
 ```
 python chess_analyzer.py
 ```
-•	You will be asked whether to run Stockfish
-•	The board is initialized using initialize_board()
-•	Evaluations are printed after each move if Stockfish is enabled
+- You will be asked whether to run Stockfish
+- The board is initialized using initialize_board()
+- Evaluations are printed after each move if Stockfish is enabled
 
 Example Output
 ```
@@ -49,7 +49,7 @@ Evaluation: +0.24 (white slightly better)
 1 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖ 1
   a b c d e f g h
 ```
-  Notes
-	•	Requires Python 3.6 or higher
-	•	Ensure the Stockfish binary is executable (use chmod +x if needed)
-	•	You can modify board setup and printing in functions.py
+Notes
+- Requires Python 3.6 or higher
+- Ensure the Stockfish binary is executable (use chmod +x if needed)
+- You can modify board setup and printing in functions.py
